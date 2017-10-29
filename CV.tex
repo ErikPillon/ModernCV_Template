@@ -1,0 +1,248 @@
+% !TEX encoding = UTF-8 
+% !TEX TS-program = pdflatex
+% !TeX spellcheck = en_US
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV
+% LaTeX Template
+% Version 0.1 (29/10/17)
+%
+% This template has been downloaded from:
+% https://github.com/ErikPillon/ModernCV_Template
+%
+% Original author:
+% Erik Pillon (erik.pillon@gmail.com)
+%
+% License:
+% This work is licensed under a Creative Commons Attribution 3.0 Italy License. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{fontawesome}
+\moderncvstyle{classic}% possible theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'                    
+\moderncvcolor{blue}                       
+\usepackage[english]{babel} 
+\usepackage[T1]{fontenc} % delete if you compile with PDFLaTeX
+\usepackage[utf8]{inputenc} % Allow the use of special italian symbols
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{blindtext}
+\usepackage{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{enumerate}
+\usepackage{eurosym}
+\usepackage{tabularx}
+\usepackage{multicol}
+\newcommand{\Matlab}{\textit{Matlab}}
+\newcommand{\Mate}{Applied Mathematics}
+\newcommand{\now}{going on}
+
+% --------------------- GEOMETRY ------------------------
+\usepackage[scale=0.82]{geometry} % scale may be changed as one wish
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+% -------------- Personal Data -------------------------- 
+% All information in this block is optional, comment out any lines you don't need
+\name{Erik}{Pillon}
+\title{Curriculum Vit\ae}            
+%\address{Via Astico 80}{36030 Zugliano}
+\phone[mobile]{(+39)~000~000~0000}     
+%\phone{(000) 111 1111}
+%\fax{(000) 111 1113}
+\email{erik.pillon@gmail.com}
+\social[linkedin]{erikpillon}
+\extrainfo{% optional
+	\faSkype foo.surname\\ 
+	\faGithub\href{https://github.com/ErikPillon}{Github reporitory}\\
+	\faStackExchange \href{https://physics.stackexchange.com/users/163255/erik-pillon?tab=profile}{Physics \& Mathematics Stack Exchange}}  
+
+% ---------------- WEBSITE --------------------------
+% comment the following line if you don't want the option
+\homepage{www.erikpillon1.wixsite.com/pi-erik} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% ---------------- WEBSITE --------------------------
+
+% ---------------- PHOTO -----------------------------
+\photo[75pt][0pt]{feynman} % Optional
+% The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% -------------END PHOTO -----------------------------
+
+% ---------------- QUOTATION -------------------------
+% comment the following line if you don't want the option
+\quote{All science is either physics or stamp collecting.}
+% -------------END QUOTATION -------------------------
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibligraphy with many items
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%------------------------------------------------------------------------
+%            CONTENT	
+%------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Personal Details}
+\cvdoubleitem{Born}{Thiene, March $ 8^{th} $ 1994}{Country}{Italy}
+\cvdoubleitem{Residence}{Zugliano, Via Astico~80}{Marital Status}{Celibate}
+
+%
+%\begin{center}
+%	\line(1,0){500}
+%\end{center}
+%
+%\begin{multicols}{2}
+%	SHORT DESCRIPTION TO BE INCLUDED HERE
+%\end{multicols}
+%
+%
+%\begin{center}
+%	\line(1,0){500}
+%\end{center}
+
+
+
+\section{Education}
+\cventry{2017--2018}{Erasmus Mobility Period}{Grenoble INP-Phelma}{Grenoble}{\textit{Reactor Physics and Nuclear Engineering Specialty (GEN)}}{}
+\cventry{2016--\now}{Master Degree}{Università degli studi di Verona}{Verona}{\textit{Master Degree in Mathematics}}{}
+\cventry{2013--July 2016}{Bachelor Degree}{Università degli studi di Verona}{Verona}{\textit{Bachelor Degree in \Mate}}{}
+\cventry{2008--2013}{Secondary school}{Liceo F. Corradini}{Thiene}{\textit{graduation}}{mark: 78/100}  
+
+\section{Main Interests}
+\cvitem{}{My main interests concerns theoretical Physics, especially condensed matter and gauge invariant properties of Quantum Field Theories. Thanks to my mathematical background, I had the opportunity on focusing in mathametical foundations of Quantum Mechanics with strong attention to geometrical aspects of Calculus of Variations.}
+
+\section{Languages}
+\hspace{25mm}\small  Self-assessment European level \href{http://europass.cedefop.europa.eu/en/resources/european-language-levels-cefr}{CEFR} (C2 maximum evaluation)\normalsize
+\vspace{5mm}
+
+\begin{tabular}{p{67mm} p{40mm} p{40mm} p{20mm}}
+	& \textbf{Comprehension} & \textbf{Speaking} & \textbf{Writing} \\
+\end{tabular}
+
+\begin{tabular}{p{67mm} p{20mm} p{20mm} p{20mm} p{20mm} p{20mm}}
+	& Listening & Reading & Grammar & Vocabulary & \\
+\end{tabular}
+
+\vspace{3mm}
+\cvlanguage{Italian}{Mother Tongue}{
+	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+		C2 & C2 & C2 & C2 & C2
+	\end{tabular}}
+	
+\cvlanguage{English}{Advanced}{
+\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+	B2 & B2 & B2 & B2 & B2
+\end{tabular}}
+
+\cvlanguage{French}{}{
+\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
+	B1 & A2 & B1 & B1 & A2
+\end{tabular}}
+
+\section{Academic experience}
+\subsection{Education}
+\cventry{2017--2018}{Grenoble INP}{Phelma}{Grenoble}{Reactor Physics and Nuclear Engineering Specialty (GEN)}{Teaching Language: French. 
+	\newline{}
+	Courses: Quantum mechanics,Introduction to Relativity, Nuclear Physics, Radiation-matter interactions, Heat exchangers, Fluid Mechanics, Numerical analysis, Physic of semiconductors, Thermic Transferts.}
+
+\cventry{2016--\now}{Master Degree in Mathematics}{dept. Computer Science}{Verona}{}{Teaching Language: English. Applied Curriculum.
+	\newline{}
+	Courses: Functional Analysis, Differential Geometry, Analytical Mechanics, Stochastic Differential Equations, Partial Differential Equations, Advanced Numerical Analysis for PDE, Modern Physics, Mathematical Physics, Quantum Mechanics.
+}
+
+\cventry{2013--2016}{Bachelor Degree in \Mate}{dept. Computer Science}{Verona}{}{ Modellistic Curriculum.
+\newline{}
+Courses: Real and Complex Analysis, Fluid Dinamics, Mathematical Models for Biology, Dinamics Systems, Probability, Stochastic Processes, Time Series Anlysis, Numerical Analysis, Numerical Methods for BVP, ODE and PDE, Mechanics, Electromagnetism, Algebra and Linear algebra, Computer Programming(Java), Operative Research, Geometry, Econometrics, Mathematical Finance, Science's philosophy.}
+\subsection{Seminars followed}
+\cventry{}{University of Verona}{Master degree in Mathematics}{}{}{\begin{itemize}
+		\item Splitting methods for PDEs (\url{http://www.di.univr.it/?ent=seminario&id=3756}), 
+		\item Cosmologia e Relatività generale (held by prof. Sabino Matarrese),
+		\item Reaction-Diffusion Equations Arising in the Mathematical Modelling of Population Dynamics(\url{http://www.di.univr.it/?ent=seminario&id=3772})
+	\end{itemize}
+}
+
+\subsection{Modeling weeks} 
+\cventry{july 2017}{31st ECMI Mathematical Modeling Week}{Lappeenranta University of Technology (LUT), Department of Computational Engineering and Physics}{Lappeenranta, Finland}{}{Short description of the project. 
+\newline{}
+And the project continues here...
+}
+\subsection{Summer Schools}
+\cventry{august 2017}{Utrecht University}{Institute for Theoretical Physics in Utrecht}{Utrecht}{}{Short description of the project. 
+	\newline{}
+	And the project continues here...
+}
+\subsection{Projects}
+\cventry{may 2017}{A Splitting Method for the Magnetic  Schr\"odinger Equation}{Scientific Computing Seminar Course}{prof.~Name~Surname}{}{Short description of the project. 
+	\newline{}
+	And the project continues here...
+}
+\cventry{july 2017}{The Wave Equation with Numerical Implementation}{Partial Differential Equations Course}{prof.~ Name~Surname}{}{Short description of the project. 
+	\newline{}
+	And the project continues here...
+}
+\subsection{Bachelor Degree thesis}
+\cvitem{Title}{\emph{Small Time Local Attainability for Control Systems}}
+\cvitem{Advisor}{dott.~Name~Surname}
+\cvitem{language}{English}
+\cvitem{Abstract}{Short abstract of the thesys here...}
+
+\subsection{Conference}
+\cventry{march 2017}{Octave Conference 2017}{GNU Octave}{Cern}{}{Annual meeting of the Octave developers.}
+
+\section{Academic charges}
+\cventry{2017--\now}{Representative Student's}{Science \& Engineering School}{}{}{}
+\cventry{2016--\now}{Representative Student's}{Didactic College of \Mate}{}{}{}
+\cventry{2016--2017}{Representative Student's}{Department of Computer Science}{}{}{}
+\cventry{2015--2016}{Representative Student's}{Didactic College of \Mate}{}{}{}
+
+\subsection{Internship}
+\cventry{2016--2017}{Teaching Assistant}{University of Verona, dept. Computer Science}{}{}{Course: Mathematical Analysis II, advisor: dott.~Name~Surname}
+\cventry{2015--2016}{150 Hours Collaborator}{University of Verona, dept. Computer Science}{}{}{Library Service}
+
+\subsection{Events}
+\cventry{June $ 9^{th} $, 2017}{Festascienze}{Verona}{Event Manager and Person in Charge}{}{No-Profit event, organized by Students of the Science\&Engineereng Area involving more than 100 students and $ \approx $ 6000 people. Money donated: 3500\euro.}
+\cventry{2016 -- 2017}{Open Your Mind}{Students Group}{Chairman}{}{University Students Gruoup that aims to organize debate and public events for getting a better understand of topics in which we often argue abuot but we don't really know much, i.e., Xenofoby, GMO, Informatics Security and so on.}
+
+\section{Informatic Skills}
+\cvitem{Numerical Analysis}{\Matlab, Scilab, GNU~Octave, FreeFem++}
+\cvdoubleitem{Languages}{Java,Python}{Tipography}{\LaTeX,\TeX}
+\cvdoubleitem{OS}{Linux, Windows }{VCS}{Git, Mercurial}
+\cvitem{Statistics}{R}
+
+
+
+\section{Work Experience}
+\cventry{July 2014}{Steward}{Area sport Verona}{Verona}{}{}
+\cventry{October 2014 --\now}{Steward}{Veronafiere}{Verona}{}{Control Access; Manpower group spa. Exhibitions : Fieracavalli(2014), Vinitaly(2015), Verona Legend Car(2015), Veronafil(2015), Cosmo Bike Show(2015), Fieracavalli(2015), Motor Bike(2016), Vinitaly(2016).}
+ 
+\section{Extra curricular activities}
+\subsection{Science Divulgation}
+\cventry{2017--\now}{Co-Editor}{Mathone}{}{}{Editor of many articles on "Mathone", \url{http://mathone.it/}, divulgative site of mathematics for students and not so young people who want to have a different look of mathematics with respect to the scholastic one.}
+
+\subsection{Voluntarism}
+\cventry{2013--\now}{Blood Donor}{Fidas Zugliano}{}{}{}
+
+\subsection{Interests}
+\cventry{2013--2015}{Coach}{ASD Veloce Club Schio 1902}{}{}{Cycling coach}
+\cventry{2016--\now}{Coach}{V.C. Schio ASD}{}{}{Cycling coach}
+
+
+
+\vspace{5em}
+\subsection{Last Update}
+\cvitem{}{\today}
+
+% --------------------- Personal data -----------------
+\subsection{Personal data treatment}
+\cvitem{}{In compliance with the Italian Legislative Decree no. 196 dated 30/06/2003, I hereby authorize the recipient of this document to use and process my personal details for the purpose of recruiting and selecting staff and I confirm to be informed of my rights in accordance to art. 7 of the above mentioned decree.}
+
+% ----------------- For bibliography ----------------------------
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications} % 'publications' is the name of the bib file
+
+\end{document}
