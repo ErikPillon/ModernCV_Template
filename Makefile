@@ -7,6 +7,10 @@ all: $(title).pdf
 clean:
 	rm -f *.pdf *.toc *.aux *.out *.log *.dvi *.bbl *.gz
 
+archive:
+	cd ..\
+	zip -r  archive.zip Template_Curriculum/
+	
 $(title).pdf: $(title).tex
 	echo "==> Compiling file "$(title)".tex"; \
 	pdflatex $(title).tex
