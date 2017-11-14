@@ -28,7 +28,7 @@
 % All information in this block is optional, comment out any lines you don't need
 \name{Erik}{Pillon}
 \title{Curriculum Vit\ae}            
-%\address{Via Astico 80}{36030 Zugliano}
+%\address{Chocolate Street}{Chocolate Industry}
 \phone[mobile]{(+39)~000~000~0000}     
 %\phone{(000) 111 1111}
 %\fax{(000) 111 1113}
@@ -54,12 +54,12 @@
 \quote{All science is either physics or stamp collecting.}
 % -------------END QUOTATION -------------------------
 
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
 
 % bibligraphy with many items
-%\usepackage{multibib}
+\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
 %------------------------------------------------------------------------
 %            CONTENT	
@@ -212,6 +212,13 @@ And the project continues here...
 
 
 
+
+% ----------------- For bibliography ----------------------------
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{bibliography} % 'bibliography.bib' is the name of the bib file
+
+
 \vspace{5em}
 \subsection{Last Update}
 \cvitem{}{\today}
@@ -219,10 +226,5 @@ And the project continues here...
 % --------------------- Personal data -----------------
 \subsection{Personal data treatment}
 \cvitem{}{In compliance with the Italian Legislative Decree no. 196 dated 30/06/2003, I hereby authorize the recipient of this document to use and process my personal details for the purpose of recruiting and selecting staff and I confirm to be informed of my rights in accordance to art. 7 of the above mentioned decree.}
-
-% ----------------- For bibliography ----------------------------
-%\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{publications} % 'publications' is the name of the bib file
 
 \end{document}
